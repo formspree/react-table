@@ -11,10 +11,10 @@ const getTableProps = (props, { instance }) => {
   const columnWidths = instance.visibleColumns.map(column => {
     const index = instance.allColumns.findIndex(col => col.id === column.id)
     const width = instance.state.gridLayout.columnWidths[index]
-    if (column.width !== 150 && width === `auto`) {
-      return column.width || `auto`
+    if (width === `auto`) {
+      return `auto`
     }
-    return width
+    return `${width}px`
   })
   return [
     props,
