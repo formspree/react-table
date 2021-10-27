@@ -1,3 +1,6 @@
+***this is a local fork of react-table with fixes for resizing columns***
+Versions of this repo track the existing versions of react-table with the version suffix `-fork.x`. To publish use `yarn publish --access=public --version=x.x.x-fork.x` 
+
 ![React Table Header](https://github.com/tannerlinsley/react-table/raw/master/media/repo-dark.png)
 
 Hooks for building **lightweight, fast and extendable datagrids** for React

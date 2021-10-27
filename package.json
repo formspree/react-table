@@ -1,6 +1,6 @@
 {
-  "name": "react-table",
-  "version": "1.0.0-semantic-release",
+  "name": "@formspree/react-table",
+  "version": "7.7.0-fork.0",
   "description": "Hooks for building lightweight, fast and extendable datagrids for React",
   "license": "MIT",
   "homepage": "https://react-table.tanstack.com",
